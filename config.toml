@@ -1,0 +1,36 @@
+baseurl = "http://jh3g.com"
+title       = "jh3g - Josh Horowitz 3 Gun"
+theme       = "hugo-multi-bootswatch"
+paginate    = 10 
+
+[author]
+name =  "Josh Horowitz (jh3g)"
+email = "josh@kartjob.net"
+
+[params]
+languageCode    =  "en-us"
+author          = "Josh Horowitz (jh3g)"
+# Copyright text; used in footer
+copyright = "2015 Josh Horowitz"
+# Social Links; used in footer
+facebook        = "https://www.facebook.com/jh3g"
+# show default summaries on the frontpage or not
+use_summaries = false
+
+# naming of the elements in your blog/site
+[params.strings]
+    # name of the link to the homepage
+    home_navbar_link = "Home"
+
+    # name of the link to the blog page
+    blog_navbar_link = "Blog"
+
+    # name of the header used in the post list page
+    posts_list_header = "Posts"
+
+    # used date format
+    date_format = '02-Jan-2006'
+
+[params.theme]
+inverse = "true"
+name = "journal"
